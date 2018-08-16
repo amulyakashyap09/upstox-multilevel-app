@@ -2,6 +2,9 @@ FROM nikolaik/python-nodejs:latest
 
 # Set environment variable
 ENV NODE_ENV=development
+ENV MONGODB=mongodb://mongodb:27017/upstox
+ENV PORT=7000
+ENV HOST=127.0.0.1
 
 COPY ./package.json /tmp/package.json
 
@@ -17,4 +20,6 @@ COPY ./package.json /home/code/package.json
 
 EXPOSE 7000
 
-CMD ["npm", "start"]
+RUN chmod +x ./wait.sh
+
+CMD [ "./wait.sh" ]
