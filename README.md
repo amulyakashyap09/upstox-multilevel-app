@@ -14,9 +14,11 @@
 
 * Clone repo : `git clone https://github.com/amulyakashyap09/upstox-multilevel-app.git`
 * cd `upstox-multilevel-app`
+* RUN `npm start`
+>OR
 * Run command `docker-compose up`
 
-> In case you don't have docker / docker compose and falling short to install. You can also execute `npm start` and move to documentation
+> **In case you don't have docker / docker compose and any error in docker. You should execute `npm start` and move to documentation**
 
 ## Documentation
 
