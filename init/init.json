@@ -1,0 +1,6 @@
+{
+    "joiningAmt": 100,
+    "custPaybackPerc": 0.3,
+    "ambassadorPaybackPerc": 0.1,
+    "dbAsyncConcurrency": 1000
+}

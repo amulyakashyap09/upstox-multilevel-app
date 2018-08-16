@@ -1,0 +1,41 @@
+{
+  "name": "upstox",
+  "version": "1.0.0",
+  "description": "upstox multi-level marketing system",
+  "main": "server.js",
+  "scripts": {
+    "start": "DEBUG=* node server.js",
+    "debug": "node --inspect server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "multi-level",
+    "marketing",
+    "nodejs",
+    "upstox"
+  ],
+  "author": "Amulya Kashyap <amulyakashyap09@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "boom": "^7.2.0",
+    "chai": "^4.1.2",
+    "cookie": "^0.3.1",
+    "debug": "^3.1.0",
+    "hapi": "^17.5.3",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "joi": "^13.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.2.7",
+    "raven": "^2.6.3",
+    "supertest": "^3.1.0",
+    "underscore": "^1.9.1",
+    "vision": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
